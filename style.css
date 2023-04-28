@@ -1,13 +1,14 @@
 /* single line comment and block commemnt */
 
 body{
-    background-color: #3F2860;
-    color: #40407A;
+    background-image: url(greybg.jpg);
+    background-color: #FFF;
+    color: #FFF;
     font-family: Verdana,Arial,sans-serif;
 }
 
 header{
-    background-image: url("images/lilyheader.jpg");
+    background-image: url("binary.jpg");
     background-size: 100% 100%;
     text-align: left;
     height: 150px;
@@ -42,12 +43,20 @@ h2{
     font-size: 200%;
 }
 
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
 nav{
     text-align: center;
     font-weight: bold;
-    padding: 1em;
-    float: left;  /* dynamicall moves to teh left of the screen */
+    padding: 1em;  /* dynamicall moves to teh left of the screen */
     width: 160px;
+    
 }
 nav a{
     text-decoration: none;
@@ -62,6 +71,7 @@ nav a{
 nav ul{
     list-style-type: none;
     padding: 0em;
+    padding-left: 50em;
 }
 
 nav a:link{color:#3F2860}
@@ -69,7 +79,7 @@ nav a:visited{color:#497777}
 nav a:hover{color:#A26100;border:3px inset #333333}
 
 footer{
-    background-color: #FCEBB6;
+    background-color: #333333;
     font-size: .60em;
     text-align: center;
     font-family: Arial,Helvetica,sans-serif;
@@ -101,7 +111,7 @@ main{
     margin-right:auto;    /*auto space everywhere to the right*/
     margin-left: auto;
     width:80%;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     min-width: 1000px;
     max-width: 1280px;
 }
@@ -115,7 +125,10 @@ main{
     margin-right: 4em;
     margin-bottom: 1em;
 }
-
+.floatcenter{
+    float: center;
+    padding-left: 50em;
+}
 /* take up half of the area */
 .onehalf{
     float: left;
