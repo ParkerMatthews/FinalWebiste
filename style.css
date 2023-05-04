@@ -1,14 +1,13 @@
-/* single line comment and block commemnt */
-
 body{
-    background-image: url(greybg.jpg);
-    background-color: #FFF;
-    color: #FFF;
+    background-image: url(cleanbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Verdana,Arial,sans-serif;
 }
 
 header{
-    background-image: url("binary.jpg");
+    background-position: center;
+    background-image: url("headerbg.PNG");
     background-size: 100% 100%;
     text-align: left;
     height: 150px;
@@ -93,6 +92,7 @@ img{
 }
 
 main{
+    color: #FFF;
     padding-top: 1em;
     padding-left: 2em;
     padding-right: 2em;
@@ -150,3 +150,27 @@ main{
 }
 /* global property or global var */
 * {box-sizing: border-box;}
+
+footer{
+    color: #FFF;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+}
+
+.item i
+{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1.5rem;
+    color: #3e78b2;
+    border: 1px solid rgb(243, 242, 242);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.item i:hover{
+    background-color: #3e78b2;
+    color: #FFF;
+}
