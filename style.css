@@ -137,6 +137,10 @@ main{
     padding-right: 2em;
 }
 
+.floatright{
+    float: right;
+}
+
 /* take up 1/3 of the area */
 .onethird{
     float: left;
@@ -173,4 +177,9 @@ footer{
 .item i:hover{
     background-color: #3e78b2;
     color: #FFF;
+}
+
+
+.center-table{
+    margin-right: 15em;
 }
