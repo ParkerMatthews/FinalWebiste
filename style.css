@@ -129,6 +129,11 @@ main{
     float: center;
     padding-left: 50em;
 }
+
+.floatbottom{
+    float: bottom;
+    padding-top: 30em;
+}
 /* take up half of the area */
 .onehalf{
     float: left;
@@ -182,4 +187,96 @@ footer{
 
 .center-table{
     margin-right: 15em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em; width: 80%;
+    
+}
+@media (max-width:600px){
+    body{
+        background-color: #CEF1F2;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: large;
+        text-align: center;
+        display:inline-flexbox;
+        place-items: center;
+    }
+    .home-left{
+        width: 100%;
+        padding-top: 4.5em;
+        padding-bottom: 2em;
+        padding-right: 0em;
+    }
+    .home-right{
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .park-logo{
+        padding-bottom: 7em;
+        background-image: url("name-removebg-preview.png");
+        background-size:cover;
+        width: 90%;
+        background-repeat: no-repeat;
+        margin-bottom: 2em;
+    }
+    footer{
+        position: relative;
+        width: 50%;
+        padding: 20px 20px 20px;
+        border-radius: 1.25rem;
+        background-color: #1B9AAA;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .home-card{
+        font-size: large;
+        width: 350px;
+        height: 330px;
+    }
+    nav{
+        width: 70%;
+    }
+    nav a{
+        font-size: x-large;
+    }
+    .parent-projects-choice{
+        text-align: center;
+        padding-bottom: 10em;
+        display:contents;
+    }
+    .child-projects-choice{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        border-radius: 1.25rem;
+        padding: 4em 4rem;
+    }
+    .project-page-nav{
+        width: 80%;
+    }
+    .card {
+        width: 400px;
+        height: 280px;
+    }
+    .card-preview-img{
+        width: 400px;
+        height: 280px;
+    }
+    .card-preview-img-JavaJam{
+        width: 400px;
+        height: 280px;
+    }
+    .card::before {
+        height:520px;
+        width: 30px;
+      }
+      .project-page-footer{
+        color: black;
+    }
 }
